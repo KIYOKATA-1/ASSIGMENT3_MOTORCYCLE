@@ -11,7 +11,7 @@
     --header-color: #05161A;
     --text-color: #CCD0CF;
     --logo-color: snow;
-    --ahover-color: #FB5607;
+    --ahover-color: #0F969C;
     --bg2-color: #0EAD69;
     --footer-color: #4A5C6A;
 }
@@ -33,3 +33,24 @@ header{
     z-index: 100;
 }
 
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s ease;
+}
+
+nav a:hover,
+nav a.active{
+    color: var(--ahover-color);
+    font-size: 20px;
+}
