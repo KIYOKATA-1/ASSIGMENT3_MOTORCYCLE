@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --bg-color: #072E33;
+    --header-color: #05161A;
+    --text-color: #CCD0CF;
+    --logo-color: snow;
+    --ahover-color: #FB5607;
+    --bg2-color: #0EAD69;
+    --footer-color: #4A5C6A;
+}
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
