@@ -63,6 +63,8 @@ section{
     font-weight: 700;
     color: white;
     border-radius: 6px;
+    background-image: url(img/motowheels.png);
+    background-repeat: no-repeat;
 }
 
 section:nth-child(odd){
@@ -82,3 +84,7 @@ section:nth-child(odd){
     letter-spacing: 2px;
 }
 
+#motowheels{
+    width: 100vw;
+    height: 100vh;
+}
