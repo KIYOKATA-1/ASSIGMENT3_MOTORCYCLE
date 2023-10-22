@@ -126,6 +126,10 @@ section:nth-child(odd){
 
 }
 
+#day::after{
+    content: 'Day';
+}
+
 #hrs::after{
     content: 'Hours';
 }
