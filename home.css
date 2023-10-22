@@ -54,3 +54,18 @@ nav a.active{
     color: var(--ahover-color);
     font-size: 20px;
 }
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #072E33;
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+}
+
+section:nth-child(odd){
+    background: #0C7075;
+}
