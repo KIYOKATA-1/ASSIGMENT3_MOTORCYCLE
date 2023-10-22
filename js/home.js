@@ -14,3 +14,15 @@ var x = setInterval(function(){
     document.getElementById("min").innerHTML = minutes;
     document.getElementById("sec").innerHTML = seconds;
 },1000) 
+
+
+var btnMore = document.getElementById("btn-more");
+
+btnMore.addEventListener("click", function(){
+    window.location.href = "more.html";
+});
+
+var btnDone = document.getElementById('btnDone');
+btnDone.addEventListener('click',function(){
+    alert("Done!");
+});
