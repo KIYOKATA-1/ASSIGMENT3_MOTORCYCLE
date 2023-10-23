@@ -26,12 +26,12 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 120px;
-    background: var(--header-color);
+    padding: 20px 420px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    backdrop-filter: blur(8px);
 }
 
 .logo{
