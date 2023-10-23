@@ -27,7 +27,7 @@
     <nav>
         <a href="#home" onclick="location.href='home.html'">Home</a>
         <a href="popular.html" id="popular">Popular</a>
-        <a href="#order" id="order">Order</a>
+        <a href="#order" onclick="location.href='order.html'">Order</a>
         <a href="#contact" id="contact">Contact</a>
     </nav>
   </header>
@@ -63,13 +63,19 @@
                     <div class="error">
                 </div>
                 <div class="input-control">
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email">
+                    <label for="lastname">Lastname</label>
+                    <input id="lastname" name="lastname" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="phonenum">Phone Number</label>
+                    <input id="phonenum" name="phonenum" type="text">
                     <div class="error"></div>
                 </div>
                  </div>
-                 <button id="btnDone">Done</button>
             </form>
+            <button id="btnDone"">Done</button>
+
         </div>
   </section>
   <main>

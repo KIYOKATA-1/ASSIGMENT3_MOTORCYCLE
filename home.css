@@ -39,6 +39,8 @@ header{
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    font-family: 'Black Ops One', cursive;
+
 }
 
 nav a{
@@ -48,6 +50,7 @@ nav a{
     font-weight: 500;
     margin-left: 35px;
     transition: .3s ease;
+    font-family: 'Sometype Mono', monospace;
 }
 
 nav a:hover{
@@ -157,13 +160,6 @@ section:last-child(odd){
     font-size: 16px;
 }
 
-.btn-more:hover{
-    box-shadow: 0 5px 15px #040e0f;
-    transform: translateY(-5px);
-    transition: 0.5s;
-    background: #064554;
-}
-
 #form{
     width: 600px;
     margin: 20vh auto 0 auto;
@@ -171,6 +167,11 @@ section:last-child(odd){
     background: whitesmoke;
     border-radius: 4px;
     font-size: 12px;
+}
+
+.form-container {
+    align-items: center;
+    text-align: center;
 }
 
 #form h1{
@@ -182,8 +183,9 @@ section:last-child(odd){
 #btnDone{
     padding: 10px;
     margin-top: 10px;
-    width: 100%;
+    width: 80%;
     color: white;
+    align-items: center;
     background: linear-gradient(45deg,#0D112D,#12245C,#12245C,#1E427F,#2C609C,#6C94B8);
     font-weight: 700;
     font-size: 1rem;
