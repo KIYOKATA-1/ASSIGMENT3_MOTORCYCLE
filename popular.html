@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@1,600&display=swap" rel="stylesheet">
   <link rel="icon" href="img/iconsite.png" type="image/x-icon">
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="popular.css">
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -23,54 +23,30 @@
 <body>
   <header>
     <a href="" class="logo">LEXX</a>
-
     <nav>
         <a href="#home" onclick="location.href='home.html'">Home</a>
-        <a href="popular.html" id="popular">Popular</a>
+        <a href="#popular" id="popular">Popular</a>
         <a href="#order" id="order">Order</a>
         <a href="#contact" id="contact">Contact</a>
     </nav>
   </header>
-
-  <section class="w-100 vh-100 d-flex flex-column" id="home"><div>
-    <h1>FREEDOM ON TWO WHEELS</h1>
-    <h3>YOUR DREAMS == OUR MOTORCYCLES!</h3></div><br><br>
-        <div class="timer">
-            <h2>LIMITED OFFER</h2>
-            <div class="clock">
-                <span id="day">00</span>
-                <span>:</span>
-                <span id="hrs">00</span>
-                <span>:</span>
-                <span id="min">00</span>
-                <span>:</span>
-                <span id="sec">00</span>
-            </div>
+  <section class="w-120 vh-100 d-flex flex-column" id="popular">
+    <div class="conteiner-popular">
+        <img src="img/bike-image.png" alt="" class="bike-image">
+        <div class="info-panel">
+            <h1>2024</h1>
+            <h2>NINJA ZX-10R</h2>
+            <p>MSRP NON-ABS: $17,799 | MSRP ABS: $18,799</p>
+            <h3>ADDITIONAL VEHICLE FEATURES:</h3>
+            <ul>
+                <li>~ <i class="bi bi-dot"></i>Kawasaki Quick Shifter (KQS)</li>
+                <li>~ Sport-Kawasaki TRaction Control (S-KTRC)</li>
+                <li>~ Kawasaki Launch Control Mode (KLCM)</li>
+                <li>~ All LED lighting</li>
+            </ul>
         </div>
-  </section>
-  
-  <section class="w-120 vh-100 d-flex flex-column" id="more">
-    <br>
-        <div class="form-container">
-            <h2>Hurry up to leave your application before November 4th <br>
-                And get a 40% discount on any motorcycle in our store.<br>
-                Hurry up, the number of products is limited!</h2>
-            <form id="form" action="/">
-                <h1>Enter Your Details</h1>
-                <div class="input-control">
-                    <label for="username">Name</label>
-                    <input id="username" name="username" type="text">
-                    <div class="error">
-                </div>
-                <div class="input-control">
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email">
-                    <div class="error"></div>
-                </div>
-                 </div>
-                 <button id="btnDone">Done</button>
-            </form>
-        </div>
+        <img src="img/zx10r.png" alt="" class="zx10r">
+    </div>
   </section>
   <main>
 
