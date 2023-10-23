@@ -188,3 +188,41 @@ nav a:hover{
 }
 
 
+
+.bike-section{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+    display: block;
+    border-radius: 2px;
+    backdrop-filter: blur(8px);
+    font-family: 'Sometype Mono', monospace;
+}
+
+.bike-section h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.bike{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bike img{
+    max-width: 90%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.bike-section h3{
+    font-size: 18px;
+    margin: 0;
+}
+
+.bike-section p{
+    font-size: 12px;
+}
+
