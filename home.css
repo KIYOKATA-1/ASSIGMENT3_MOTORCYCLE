@@ -50,6 +50,10 @@ header{
     
 }
 
+.moto-o{
+    display: none;
+}
+
 nav a{
     font-size: 18px;
     color: #fff;
@@ -94,13 +98,8 @@ section:last-child(odd){
     font-weight: 600;
     letter-spacing: 2px;
     -webkit-text-stroke: #05161A 0.25px;
-
 }
 
-#motowheels{
-    width: 100vw;
-    height: 100vh;
-}
 
 .bike-container{
     background: white;
@@ -283,5 +282,88 @@ section:last-child(odd){
     100% {
         opacity: 0;
         transform: translate(0, 53px) rotate(-45deg);
+    }
+}
+
+
+@media only screen and (min-width: 2558px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 420px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        align-items: center;
+        text-align: center;
+        backdrop-filter: blur(8px);
+    }
+
+    .logo{
+        font-size: 60px;
+        color: #fff;
+        left: -50%;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: 'Black Ops One', cursive;
+    }
+    .logo:hover{
+        color: rgb(4, 38, 40);
+    }
+
+    nav a{
+        font-size: 36px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 50px;
+        text-align: center;
+        transition: .3s ease;
+        font-family: 'Sometype Mono', monospace;
+    }
+
+    section{
+        min-height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 300px;
+        background:red;
+        font-weight: 700;
+        color: white;
+        border-radius: 2px solid black; 
+    }
+
+    #home h1{
+        font-size: 7rem; 
+        font-family: 'Anton', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        -webkit-text-stroke: #05161A 1px;
+    }
+    #home h3{
+        font-size: 5rem; 
+        font-family: 'Shadows Into Light', cursive; 
+        font-weight: 600;
+        letter-spacing: 2px;
+        -webkit-text-stroke: #05161A 0.25px;
+    }
+
+    .timer{
+        width: 800px;
+        height: 150px;
+        top: 20%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
+    .timer h2{
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 64px;
+        font-weight: 800;
+        -webkit-text-stroke: #072E33 1px;
     }
 }
